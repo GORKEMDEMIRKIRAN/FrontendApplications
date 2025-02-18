@@ -1,0 +1,72 @@
+
+body{
+    margin-top: 10%;
+}
+
+.filter-box{
+    border-bottom: 1px solid #dee2e6;
+}
+
+.filter-box .card-header{
+    border-bottom: 0;
+    border-radius: 0;
+}
+
+.menu{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.menu li{
+    margin-bottom: 3px;
+}
+
+.menu li>a {
+    color:#51585e;
+    text-decoration: none;
+}
+
+/* 
+menü div içine scroll ekledik. 
+200px daha aşağı durumda scrollbar çıkacaktır.
+*/
+.scroll{
+    height: 200px;
+    overflow: auto;
+}
+
+.card-header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ikona ulaştık. */
+
+.fa-solid{
+    float: right;
+    font-size: 14px;
+    color: grey;
+    margin-top: 4px;
+}
+
+/* relative ile o ğenin konumunu değiştirebiliyoruz. */
+.checkbox-btn{
+    position: relative;
+}
+/* absolute ile normal belge akışından çıkarırız. */
+.checkbox-btn input{
+    position: absolute;
+    opacity: 0;
+}
+.checkbox-btn input:checked~.btn{
+    background-color: blue;
+    color:#dee2e6;
+}
+
+.btn-light{
+    background-color: white;
+    border-color: orange;
+    color: black;
+}
+
