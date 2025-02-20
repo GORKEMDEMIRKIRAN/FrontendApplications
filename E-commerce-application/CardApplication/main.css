@@ -1,0 +1,46 @@
+
+body{
+    margin-top: 10%;
+    font-family: "Kanit", serif;
+}
+
+
+@media(max-width: 768px) {
+    .img-wrap{
+        border-bottom: 2px solid grey;
+    }
+    
+}
+
+
+.product-card .img-wrap{
+    height: 250px;
+    padding:.5rem;
+    display: block;
+    text-align: center;
+}
+/* burada yüksekliği img-wrap göre %100 yükseklik alır
+genişliği otomatik ayarlar
+max-genişlik %100 olur
+object-fit: cover; görüntüyü kapsayıcıya sığdırır
+en boy oranını koruru
+ */
+.product-card img{
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+.product-card .title{
+    text-decoration: none;
+}
+
+.product-card .price{
+    color: orange;
+    font-size: 22px;
+}
+.product-card .rating{
+    font-size:13px;
+}
