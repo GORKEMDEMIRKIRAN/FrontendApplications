@@ -1,0 +1,74 @@
+
+body{
+    font-family: "Kanit", serif;
+}
+
+
+
+.approved{
+    color: yellow;
+}
+
+.progress{
+    margin: 3px;
+}
+
+
+
+.image-container{
+    width: 75px; /* Dairenin çapını belirler */
+    height: 75px; /* Dairenin çapını belirler */
+    border-radius: 50%; /* Görseli daire yapar */
+    overflow: hidden; /* Taşan kısımları gizler */
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Görüntüyü daireye sığdırır */
+}
+
+.card{
+    border: 0;
+}
+
+.comments .card-header{
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+}
+.comments{
+    text-align: left;
+    font-size: 14px;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+.assessment .card-header{
+    font-size: 14px;
+    text-align: center;
+}
+.assessment{
+    margin:0;
+    padding:0;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.person{
+    margin-bottom: 10px;
+}
+
+.do-comments{
+    margin-top: 20px;
+}
+.commentArea{
+    height: 400px;
+    overflow-y: auto;
+}
+
+.do-comments{
+    font-size: 14px;
+    border: 0;
+}
+.do-comments .card-title{
+    font-size: 20px;
+}
