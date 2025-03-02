@@ -1,0 +1,16 @@
+.navbar{
+    background-color: teal;
+}
+footer{
+    background-color: teal;
+}
+#map{
+    height: 450px;
+}
+
+@media (min-width:768px){
+    #map{
+        height: 100%;
+    }
+}
+
